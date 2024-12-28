@@ -7,7 +7,7 @@
 %global install_opt TYPE=sysv
 %endif
 
-%define baserelease CROC1
+%define baserelease ROCKIT1
 #build with --define 'testbuild 1' to have a timestamp appended to release
 %if "x%{?testbuild}" == "x1"
 %define release %{baserelease}.%(date +%%Y%%m%%d.%%H%%M.%%S)
